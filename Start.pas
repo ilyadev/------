@@ -117,7 +117,7 @@ begin
   Close (FMapFile);
 end;
 
-procedure GoingOnLocation(var corX, corY: word);
+procedure GoToLocation(var corX, corY: word);
 begin
   if (corX = 98) and (corY = 52) then
   begin
